@@ -10,6 +10,10 @@
  */
 
 // Your code:
+function abs(para) {
+    para >= 0 ? para = para : para = -para;
+    return para;
+}
 
 //* Begin of tests
 const assert = require('assert');
