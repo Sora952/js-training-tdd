@@ -8,6 +8,13 @@
  */
 
 // Your code:
+function sameSign(para1, para2) {
+    if ((para1 === para2) || ((para1 > 0) && (para2 > 0)) || ((para1 < 0) && (para2 < 0))) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 //* Begin of tests
 const assert = require('assert');
