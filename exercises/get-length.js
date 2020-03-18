@@ -8,6 +8,10 @@
  */
 
 // Your code:
+function getLength(para) {
+    let taille = para.length;
+    return taille;
+}
 
 //* Begin of tests
 const assert = require('assert');
