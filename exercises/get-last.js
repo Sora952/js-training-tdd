@@ -8,6 +8,11 @@
  */
 
 // Your code:
+function getLast(para) {
+    let taille = para.length;
+    let fin = taille-1;
+    return para[fin];
+}
 
 //* Begin of tests
 const assert = require('assert');
